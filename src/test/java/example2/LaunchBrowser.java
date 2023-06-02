@@ -7,11 +7,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class LaunchBrowser {
-
+WebDriver driver;
 	@Test
 	public void launchBrowserTest()
 	{
-		WebDriver driver;
+		
 		
 		String browser = System.getProperty("Browser");
 		String url = System.getProperty("URL");
