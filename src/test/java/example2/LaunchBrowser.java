@@ -16,6 +16,9 @@ public class LaunchBrowser {
 		String browser = System.getProperty("Browser");
 		String url = System.getProperty("URL");
 		
+		System.out.println(browser);
+		System.out.println(url);
+		
 		if(browser.equalsIgnoreCase("chrome"))
 			driver = new ChromeDriver();
 		else if (browser.equalsIgnoreCase("edge"))
