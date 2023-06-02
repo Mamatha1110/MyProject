@@ -11,7 +11,7 @@ public class LaunchBrowser {
 	@Test
 	public void launchBrowserTest()
 	{
-		WebDriver driver = null;
+		WebDriver driver;
 		
 		String browser = System.getProperty("Browser");
 		String url = System.getProperty("URL");
