@@ -13,8 +13,8 @@ WebDriver driver;
 	{
 		
 		
-		String browser = System.getProperty("Browser");
-		String url = System.getProperty("URL");
+		String browser = System.getProperty("browser");
+		String url = System.getProperty("url");
 		
 		System.out.println(browser);
 		System.out.println(url);
